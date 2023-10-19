@@ -2,6 +2,8 @@ using Repositories.EFCore;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Extensions;
 using NLog;
+using WebApi.Extensions;
+using Services.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +19,9 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 
 var app = builder.Build();
+
+var logger = app.Services.GetRequiredService<ILoggingService>();
+app.ConfigureExceptionHandler(logger);
 
 if (app.Environment.IsDevelopment())
 {
