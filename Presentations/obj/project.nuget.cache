@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EO3Ag/svXfSHfse47zNjj+yjF+JrIzBH+p0fmI11JW0P5QVAkfnIP56ZhERwN1ain1mN5vK/MKWt9yVeLxrhTg==",
+  "dgSpecHash": "R+msm4YgT51UF0SucacU93uPjBcVk+7/c6OaiXArg4ElqH29J9JBW7PKDa+QjVKOeytwbgaAmS63kM3eaG8sVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\yusuf\\Desktop\\C#\\API\\Presentations\\Presentations.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yusuf\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

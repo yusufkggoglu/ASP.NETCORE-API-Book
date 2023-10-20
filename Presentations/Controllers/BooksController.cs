@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
@@ -38,25 +39,25 @@ namespace Presentations.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOneBook([FromBody] Book book)
+        public IActionResult CreateOneBook([FromBody] BookDtoForCreate bookDto)
         {
-            if (book is null)
+            if (bookDto is null)
                  return BadRequest(); // 400 
 
-            _manager.BookService.CreateOneBook(book);
+            _manager.BookService.CreateOneBook(bookDto);
 
-            return StatusCode(201, book);
+            return StatusCode(201, bookDto);
         }
 
         [HttpPut("{id:int}")]
         public IActionResult UpdateOneBook([FromRoute(Name = "id")] int id,
-            [FromBody] Book book)
+            [FromBody] BookDtoForUpdate bookDto)
         {
            
-            if (book is null)
+            if (bookDto is null)
                  return BadRequest(); // 400 
 
-            _manager.BookService.UpdateOneBook(id, book, true);
+            _manager.BookService.UpdateOneBook(id, bookDto, true);
              return NoContent(); // 204
         }
 
@@ -77,10 +78,11 @@ namespace Presentations.Controllers
                     .BookService
                     .GetOneBookById(id, true);
 
-                bookPatch.ApplyTo(entity);
-                _manager.BookService.UpdateOneBook(id, entity, true);
+            _manager.BookService.UpdateOneBook(id,
+                 new BookDtoForUpdate(entity.Id, entity.Name, entity.Price),
+                 true);
 
-                return NoContent(); // 204
+            return NoContent(); // 204
         }
     }
 }

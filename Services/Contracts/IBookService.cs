@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,10 @@ namespace Services.Contracts
 {
     public interface IBookService
     {
-        IEnumerable<Book> GetAllBooks(bool trackChanges); //ıenumerable , foreach ile ulaşabilmek için kullanıldı
-        Book GetOneBookById(int id,bool trackChanges);
-        Book CreateOneBook(Book book); 
-        void UpdateOneBook(int id, Book book,bool trackChanges);
+        IEnumerable<BookDto> GetAllBooks(bool trackChanges); //ıenumerable , foreach ile ulaşabilmek için kullanıldı
+        BookDto GetOneBookById(int id,bool trackChanges);
+        BookDtoForCreate CreateOneBook(BookDtoForCreate bookDto); 
+        void UpdateOneBook(int id, BookDtoForUpdate bookDto,bool trackChanges);
         void DeleteOneBook(int id,bool trackChanges);
     }
 }

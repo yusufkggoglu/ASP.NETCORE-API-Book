@@ -22,5 +22,5 @@ namespace WebApplication1.Extensions
 
         public static void ConfigureLoggerService(this IServiceCollection services) =>
             services.AddSingleton<ILoggingService, LoggerManager>();
-            }
+     }
 }
