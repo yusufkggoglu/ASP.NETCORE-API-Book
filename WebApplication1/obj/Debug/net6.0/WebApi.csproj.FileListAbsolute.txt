@@ -1,3 +1,9 @@
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\nlog.config
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\appsettings.json
@@ -12,6 +18,7 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Humanizer.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -42,6 +49,7 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServ
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\NLog.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -79,13 +87,6 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Entities.pdb
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Presentations.pdb
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Repositories.pdb
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Services.pdb
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.AssemblyInfo.cs
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.csproj.CoreCompileInputs.cache
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApi.props
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props

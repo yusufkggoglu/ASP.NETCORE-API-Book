@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Entities.DataTransferObjects
 {
-    public record BookDtoForCreate(String Name, decimal Price);
+    public record BookDtoForCreate : BookDtoForManipulation;
 
 }

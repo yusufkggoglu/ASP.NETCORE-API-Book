@@ -4,6 +4,8 @@ using WebApplication1.Extensions;
 using NLog;
 using WebApi.Extensions;
 using Services.Contracts;
+using Microsoft.AspNetCore.Mvc;
+using Presentations.ActionFilters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,12 @@ builder.Services.AddControllers(config =>
 })
     .AddXmlDataContractSerializerFormatters() // for xml request
     .AddApplicationPart(typeof(Presentations.AssemlyReference).Assembly);
+   //.AddNewtonsoftJson();
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -26,7 +34,7 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddMvc();
 builder.Services.AddAutoMapper(typeof(Program));
-
+builder.Services.ConfigureActionFilters();
 var app = builder.Build();
 
 var logger = app.Services.GetRequiredService<ILoggingService>();
