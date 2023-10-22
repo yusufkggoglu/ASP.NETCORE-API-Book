@@ -1,14 +1,6 @@
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Presentations.deps.json
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Presentations.dll
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Presentations.pdb
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.AssemblyInfoInputs.cache
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.AssemblyInfo.cs
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.csproj.CoreCompileInputs.cache
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.dll
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\refint\Presentations.dll
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.pdb
-C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\ref\Presentations.dll
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Entities.dll
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Repositories.dll
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Services.dll
@@ -16,4 +8,12 @@ C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Services.pdb
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Entities.pdb
 C:\Users\yusuf\Desktop\C#\API\Presentations\bin\Debug\net6.0\Repositories.pdb
 C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.csproj.AssemblyReference.cache
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.AssemblyInfoInputs.cache
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.AssemblyInfo.cs
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.csproj.CoreCompileInputs.cache
 C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.csproj.CopyComplete
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.dll
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\refint\Presentations.dll
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\Presentations.pdb
+C:\Users\yusuf\Desktop\C#\API\Presentations\obj\Debug\net6.0\ref\Presentations.dll

@@ -1,3 +1,4 @@
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\nlog.config
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\appsettings.json
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\WebApi.exe
@@ -5,6 +6,8 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\WebApi.deps.json
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\WebApi.runtimeconfig.json
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\WebApi.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\WebApi.pdb
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Humanizer.dll
@@ -39,6 +42,8 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.SqlServ
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\NLog.dll
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -95,8 +100,3 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\refint\WebApi.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.pdb
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\obj\Debug\net6.0\ref\WebApi.dll
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\nlog.config
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\NLog.dll
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\NLog.Extensions.Logging.dll
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

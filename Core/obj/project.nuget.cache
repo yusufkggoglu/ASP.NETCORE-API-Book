@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "R+MAC5fNCnXbioEP3MPf4a6w9+pdsJ8KgJX+W3pS1VzMPIuvsxuKkW1y1jYWKcoOW+MCiV8JT6VVPBS6acpM/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yusuf\\Desktop\\C#\\API\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yusuf\\.nuget\\packages\\fluentvalidation\\8.2.2\\fluentvalidation.8.2.2.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\postsharp\\4.2.17\\postsharp.4.2.17.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'PostSharp 4.2.17' paketi, proje hedef çerçevesi 'net6.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "PostSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

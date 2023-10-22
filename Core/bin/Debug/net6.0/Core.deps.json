@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Core/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0",
+          "FluentValidation": "8.2.2",
+          "PostSharp": "4.2.17"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
+      "FluentValidation/8.2.2": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.2.2.0"
+          }
+        }
+      },
+      "PostSharp/4.2.17": {
+        "runtime": {
+          "lib/net35-client/PostSharp.dll": {
+            "assemblyVersion": "4.2.17.0",
+            "fileVersion": "4.2.17.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {},
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vecU0PUi85MZ/g6p3L6jxym23pdRUgsZ3wTWCLAaqrD5ig9Jf4MQA+CE2yI5d4TGO0z3bvAozqkJr+L1I6OnJg==",
+      "path": "fluentvalidation/8.2.2",
+      "hashPath": "fluentvalidation.8.2.2.nupkg.sha512"
+    },
+    "PostSharp/4.2.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b7THtwQmAxkDwo5+AGIE6mysPx8QY/v2rV6yxfh8ByWkidZ70V5Ssy1sqIK9ao4wMec2T3r1obUGxrR/lpIf2A==",
+      "path": "postsharp/4.2.17",
+      "hashPath": "postsharp.4.2.17.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

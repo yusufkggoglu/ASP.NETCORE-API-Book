@@ -8,8 +8,8 @@ namespace Entities.DataTransferObjects
 {
     public record BookDto 
     { 
-        public int Id { get; set; }
-        public String Name { get; set; }
-        public decimal Price { get; set; }
+        public int Id { get; init; }
+        public String Name { get; init; }
+        public decimal Price { get; init; }
     }
 }

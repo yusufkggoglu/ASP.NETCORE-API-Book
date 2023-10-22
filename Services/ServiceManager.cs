@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
