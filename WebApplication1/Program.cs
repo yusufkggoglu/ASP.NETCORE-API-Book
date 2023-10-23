@@ -35,6 +35,8 @@ builder.Services.ConfigureLoggerService();
 builder.Services.AddMvc();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilters();
+builder.Services.ConfigureCors();
+
 var app = builder.Build();
 
 var logger = app.Services.GetRequiredService<ILoggingService>();
@@ -47,7 +49,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();

@@ -1,14 +1,11 @@
 ﻿using Entities.DataTransferObjects;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Presentations.ActionFilters;
 using Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.Json;
 
 namespace Presentations.Controllers
 {
@@ -24,10 +21,12 @@ namespace Presentations.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllBooks()
+        public async Task<IActionResult> GetAllBooks([FromQuery]BookParameters bookParameters)
         {
-             var books = await _manager.BookService.GetAllBooksAsync(false);
-             return Ok(books);
+            var pagedResult = await _manager.BookService.GetAllBooksAsync(bookParameters,false);
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metadata));
+
+            return Ok(pagedResult.books);
         }
 
         [HttpGet("{id:int}")]
@@ -67,7 +66,6 @@ namespace Presentations.Controllers
             await _manager.BookService.DeleteOneBookAsync(id, false);
             return NoContent();
         }
-
 
         [HttpPatch("{id:int}")]
         public async Task<IActionResult> PartiallyUpdateOneBookAsync([FromRoute(Name = "id")] int id,

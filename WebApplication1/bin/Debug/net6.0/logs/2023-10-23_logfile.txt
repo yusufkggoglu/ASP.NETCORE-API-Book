@@ -1,0 +1,161 @@
+2023-10-23 16:36:14.6289 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T13:36:14.5852154Z"}
+2023-10-23 16:36:24.9936 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T13:36:24.9935452Z"}
+2023-10-23 16:38:15.2447 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T13:38:15.2446772Z"}
+2023-10-23 16:38:26.3999 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T13:38:26.3999214Z"}
+2023-10-23 16:38:42.9135 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T13:38:42.9135459Z"}
+2023-10-23 17:05:53.8623 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:05:53.8439522Z"}
+2023-10-23 17:06:02.8869 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:06:02.886825Z"}
+2023-10-23 17:06:16.4207 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:06:16.4206875Z"}
+2023-10-23 17:06:17.3449 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:06:17.3448928Z"}
+2023-10-23 17:06:21.9382 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:06:21.9381547Z"}
+2023-10-23 17:06:24.4053 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:06:24.4052823Z"}
+2023-10-23 17:06:35.2330 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:06:35.2329807Z"}
+2023-10-23 17:07:35.1026 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:07:35.0880103Z"}
+2023-10-23 17:11:31.7989 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:11:31.7864221Z"}
+2023-10-23 17:11:43.9650 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:11:43.9650281Z"}
+2023-10-23 17:17:44.6973 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:17:44.6972146Z"}
+2023-10-23 17:18:28.0894 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:18:28.0894477Z"}
+2023-10-23 17:18:32.8276 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:18:32.8275907Z"}
+2023-10-23 17:18:48.0526 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:18:48.0524561Z"}
+2023-10-23 17:18:50.0299 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:18:50.0299267Z"}
+2023-10-23 17:19:38.3874 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:19:38.3874427Z"}
+2023-10-23 17:19:51.1494 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:19:51.1493937Z"}
+2023-10-23 17:20:20.8844 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"1","CreateAt":"2023-10-23T14:20:20.8843885Z"}
+2023-10-23 17:20:21.0978 ERROR Something went wrong : Entities.Exceptions.BookNotFoundException: The book with id : 1 could not found.
+   at Services.BookManager.BookCheck(Int32 id, Boolean trackChanges) in C:\Users\yusuf\Desktop\C#\API\Services\BookManager.cs:line 80
+   at Services.BookManager.GetOneBookByIdAsync(Int32 id, Boolean trackChanges) in C:\Users\yusuf\Desktop\C#\API\Services\BookManager.cs:line 49
+   at Presentations.Controllers.BooksController.GetOneBook(Int32 id) in C:\Users\yusuf\Desktop\C#\API\Presentations\Controllers\BooksController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-10-23 17:20:24.2123 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"2","CreateAt":"2023-10-23T14:20:24.2123498Z"}
+2023-10-23 17:21:49.8785 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"2","CreateAt":"2023-10-23T14:21:49.8785101Z"}
+2023-10-23 17:21:52.5727 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"2","CreateAt":"2023-10-23T14:21:52.5727127Z"}
+2023-10-23 17:21:56.3460 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"2","CreateAt":"2023-10-23T14:21:56.3460355Z"}
+2023-10-23 17:22:10.8963 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:22:10.8961005Z"}
+2023-10-23 17:22:21.6281 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:22:21.6281765Z"}
+2023-10-23 17:22:25.0531 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetOneBook","Id":"2","CreateAt":"2023-10-23T14:22:25.053172Z"}
+2023-10-23 17:22:30.1673 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:22:30.1673674Z"}
+2023-10-23 17:22:48.2896 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:22:48.2896012Z"}
+2023-10-23 17:22:54.6997 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:22:54.6997385Z"}
+2023-10-23 17:22:58.4429 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:22:58.4429009Z"}
+2023-10-23 17:23:03.1728 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:23:03.1728268Z"}
+2023-10-23 17:23:27.7665 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:23:27.7665249Z"}
+2023-10-23 17:23:34.6772 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:23:34.6772394Z"}
+2023-10-23 17:24:36.2089 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"PartiallyUpdateOneBook","Id":"2","CreateAt":"2023-10-23T14:24:36.2089366Z"}
+2023-10-23 17:24:57.5472 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:57.5472249Z"}
+2023-10-23 17:24:57.6264 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:57.6264635Z"}
+2023-10-23 17:24:57.6889 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:57.6888539Z"}
+2023-10-23 17:24:57.7513 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:57.7513456Z"}
+2023-10-23 17:24:57.8302 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:57.8302074Z"}
+2023-10-23 17:24:57.8905 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:57.890532Z"}
+2023-10-23 17:24:57.9564 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:57.9564605Z"}
+2023-10-23 17:24:58.0394 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.0394531Z"}
+2023-10-23 17:24:58.1594 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.15942Z"}
+2023-10-23 17:24:58.2374 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.2374669Z"}
+2023-10-23 17:24:58.3166 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.3166537Z"}
+2023-10-23 17:24:58.3939 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.3939401Z"}
+2023-10-23 17:24:58.4553 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.4553837Z"}
+2023-10-23 17:24:58.5325 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.5325491Z"}
+2023-10-23 17:24:58.6251 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.6251028Z"}
+2023-10-23 17:24:58.7188 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.718819Z"}
+2023-10-23 17:24:58.7824 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.7824276Z"}
+2023-10-23 17:24:58.8454 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.8454732Z"}
+2023-10-23 17:24:58.9385 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:58.9385069Z"}
+2023-10-23 17:24:59.0176 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.0176382Z"}
+2023-10-23 17:24:59.0680 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.0680076Z"}
+2023-10-23 17:24:59.1286 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.1286372Z"}
+2023-10-23 17:24:59.1882 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.1882489Z"}
+2023-10-23 17:24:59.2656 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.2656318Z"}
+2023-10-23 17:24:59.3175 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.3175288Z"}
+2023-10-23 17:24:59.3622 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.3622287Z"}
+2023-10-23 17:24:59.4370 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.4370091Z"}
+2023-10-23 17:24:59.4993 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.4992962Z"}
+2023-10-23 17:24:59.5478 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.5478079Z"}
+2023-10-23 17:24:59.6093 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.6092982Z"}
+2023-10-23 17:24:59.6734 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.673442Z"}
+2023-10-23 17:24:59.7188 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.7188097Z"}
+2023-10-23 17:24:59.7945 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.7945358Z"}
+2023-10-23 17:24:59.8416 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.841668Z"}
+2023-10-23 17:24:59.9430 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:24:59.9429948Z"}
+2023-10-23 17:25:00.0776 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.0775901Z"}
+2023-10-23 17:25:00.1543 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.1543411Z"}
+2023-10-23 17:25:00.2165 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.216482Z"}
+2023-10-23 17:25:00.2932 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.2932588Z"}
+2023-10-23 17:25:00.3857 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.3857165Z"}
+2023-10-23 17:25:00.4495 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.4495423Z"}
+2023-10-23 17:25:00.5120 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.5119968Z"}
+2023-10-23 17:25:00.5605 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.5605179Z"}
+2023-10-23 17:25:00.6063 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.6063617Z"}
+2023-10-23 17:25:00.6838 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.6837892Z"}
+2023-10-23 17:25:00.7609 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.7609484Z"}
+2023-10-23 17:25:00.8549 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.8549618Z"}
+2023-10-23 17:25:00.9205 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.9204999Z"}
+2023-10-23 17:25:00.9955 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:00.9955185Z"}
+2023-10-23 17:25:01.0737 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.0736862Z"}
+2023-10-23 17:25:01.1504 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.1504113Z"}
+2023-10-23 17:25:01.2434 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.243394Z"}
+2023-10-23 17:25:01.3052 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.3052618Z"}
+2023-10-23 17:25:01.3824 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.3824022Z"}
+2023-10-23 17:25:01.4775 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.4775525Z"}
+2023-10-23 17:25:01.5392 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.5391942Z"}
+2023-10-23 17:25:01.6153 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.6153111Z"}
+2023-10-23 17:25:01.7095 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.7095555Z"}
+2023-10-23 17:25:01.7562 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.7562125Z"}
+2023-10-23 17:25:01.8355 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.8355066Z"}
+2023-10-23 17:25:01.8974 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.8974782Z"}
+2023-10-23 17:25:01.9591 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:01.9591832Z"}
+2023-10-23 17:25:02.0352 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.0352604Z"}
+2023-10-23 17:25:02.1306 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.1306458Z"}
+2023-10-23 17:25:02.2271 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.2270955Z"}
+2023-10-23 17:25:02.2876 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.287639Z"}
+2023-10-23 17:25:02.3652 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.3652391Z"}
+2023-10-23 17:25:02.4265 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.4265487Z"}
+2023-10-23 17:25:02.5044 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.5044399Z"}
+2023-10-23 17:25:02.5826 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.582627Z"}
+2023-10-23 17:25:02.6439 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.6438989Z"}
+2023-10-23 17:25:02.7206 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.7206445Z"}
+2023-10-23 17:25:02.7827 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.7827756Z"}
+2023-10-23 17:25:02.8441 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.8441433Z"}
+2023-10-23 17:25:02.9205 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:02.9205174Z"}
+2023-10-23 17:25:03.0150 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.0150478Z"}
+2023-10-23 17:25:03.1092 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.1092473Z"}
+2023-10-23 17:25:03.1700 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.1700175Z"}
+2023-10-23 17:25:03.2342 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.2342104Z"}
+2023-10-23 17:25:03.2673 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.2673411Z"}
+2023-10-23 17:25:03.3032 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.3032259Z"}
+2023-10-23 17:25:03.3587 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.3587587Z"}
+2023-10-23 17:25:03.4514 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.4514729Z"}
+2023-10-23 17:25:03.5478 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.5478004Z"}
+2023-10-23 17:25:03.5958 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.5958814Z"}
+2023-10-23 17:25:03.6555 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.655508Z"}
+2023-10-23 17:25:03.7200 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.7200704Z"}
+2023-10-23 17:25:03.7795 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.7795727Z"}
+2023-10-23 17:25:03.8413 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.8413034Z"}
+2023-10-23 17:25:03.9325 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.9325525Z"}
+2023-10-23 17:25:03.9790 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:03.9790339Z"}
+2023-10-23 17:25:04.0562 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.0562674Z"}
+2023-10-23 17:25:04.1491 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.149149Z"}
+2023-10-23 17:25:04.2429 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.2429409Z"}
+2023-10-23 17:25:04.3209 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.3209496Z"}
+2023-10-23 17:25:04.4147 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.4147656Z"}
+2023-10-23 17:25:04.4934 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.4934186Z"}
+2023-10-23 17:25:04.5694 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.5694332Z"}
+2023-10-23 17:25:04.6474 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.6474584Z"}
+2023-10-23 17:25:04.6961 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-10-23T14:25:04.6961431Z"}
+2023-10-23 17:25:28.3659 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:25:28.3659185Z"}
+2023-10-23 17:25:42.9453 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-10-23T14:25:42.9453692Z"}
