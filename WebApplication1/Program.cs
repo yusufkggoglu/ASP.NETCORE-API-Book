@@ -36,6 +36,7 @@ builder.Services.AddMvc();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilters();
 builder.Services.ConfigureCors();
+builder.Services.AddCustomMediaTypes();
 
 var app = builder.Build();
 

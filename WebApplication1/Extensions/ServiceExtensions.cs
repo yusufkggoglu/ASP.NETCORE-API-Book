@@ -1,5 +1,7 @@
 ﻿using Entities.DataTransferObjects;
 using Entities.Models;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Presentations.ActionFilters;
 using Repositories.Contracts;
@@ -40,6 +42,38 @@ namespace WebApplication1.Extensions
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .WithExposedHeaders("X-Pagination"));
+            });
+        }
+
+        public static void AddCustomMediaTypes(this IServiceCollection services)
+        {
+            services.Configure<MvcOptions>(config =>
+            {
+                var systemTextJsonOutputFormatter = config
+                .OutputFormatters
+                .OfType<SystemTextJsonOutputFormatter>()?.FirstOrDefault();
+
+                if (systemTextJsonOutputFormatter != null)
+                {
+                    systemTextJsonOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.yusufkggoglu.hateoas+json");
+
+                    systemTextJsonOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.yusufkggoglu.apiroot+json");
+                }
+
+                var xmlOutputFormatter = config
+                .OutputFormatters
+                .OfType<XmlDataContractSerializerOutputFormatter>()?.FirstOrDefault();
+
+                if (xmlOutputFormatter is not null)
+                {
+                    xmlOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.yusufkggoglu.hateoas+xml");
+
+                    xmlOutputFormatter.SupportedMediaTypes
+                    .Add("application/vnd.yusufkggoglu.apiroot+xml");
+                }
             });
         }
     }

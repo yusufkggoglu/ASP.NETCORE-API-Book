@@ -292,3 +292,35 @@
 2023-10-25 16:58:04.6030 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-10-25 16:58:04.6030 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
 2023-10-25 16:58:04.6295 Info Configuration initialized.
+2023-10-25 16:59:26.8054 Info AppDomain Shutting down. LogFactory closing...
+2023-10-25 16:59:26.8230 Info LogFactory has been closed.
+2023-10-25 21:05:52.7076 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 21:05:52.7917 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 21:05:52.8068 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 21:05:52.8068 Info Configuration initialized.
+2023-10-25 21:50:25.6880 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 21:50:25.7032 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 21:50:25.7154 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 21:50:25.7265 Info Configuration initialized.
+2023-10-25 21:54:41.0116 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 21:54:41.0272 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 21:54:41.0406 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 21:54:41.0406 Info Configuration initialized.
+2023-10-25 21:59:57.7492 Info AppDomain Shutting down. LogFactory closing...
+2023-10-25 21:59:57.7667 Info LogFactory has been closed.
+2023-10-25 22:00:21.7313 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 22:00:21.7656 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 22:00:21.7953 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 22:00:21.8243 Info Configuration initialized.
+2023-10-25 22:06:15.7014 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 22:06:15.7279 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 22:06:15.7525 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 22:06:15.7727 Info Configuration initialized.
+2023-10-25 22:11:01.4892 Info AppDomain Shutting down. LogFactory closing...
+2023-10-25 22:11:01.5093 Info LogFactory has been closed.
+2023-10-25 22:11:09.8298 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 22:11:09.8490 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 22:11:09.8634 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 22:11:09.8754 Info Configuration initialized.
+2023-10-25 22:15:12.1458 Info AppDomain Shutting down. LogFactory closing...
+2023-10-25 22:15:12.1625 Info LogFactory has been closed.
