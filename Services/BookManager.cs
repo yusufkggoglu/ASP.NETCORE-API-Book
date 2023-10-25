@@ -37,10 +37,13 @@ namespace Services
 
         public async Task<(IEnumerable<BookDto> books, MetaData metadata)> GetAllBooksAsync(BookParameters bookParameters,bool trackChanges)
         {
+            if (!bookParameters.ValidPriceRange)
+                throw new PriceOutOFRangeBadRequestException();
+
             var booksWithMetaData = await _manager.Book
                 .GetAllBooksAsync(bookParameters,trackChanges);
 
-             var booksDto = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
+            var booksDto = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
             return (booksDto, booksWithMetaData.MetaData);
         }
 

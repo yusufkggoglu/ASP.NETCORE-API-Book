@@ -232,3 +232,19 @@
 2023-10-23 17:30:11.2277 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-10-23 17:30:11.2491 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
 2023-10-23 17:30:11.2720 Info Configuration initialized.
+2023-10-23 17:32:08.4782 Info AppDomain Shutting down. LogFactory closing...
+2023-10-23 17:32:08.4986 Info LogFactory has been closed.
+2023-10-25 15:03:43.0263 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 15:03:43.1111 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 15:03:43.1320 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 15:03:43.1514 Info Configuration initialized.
+2023-10-25 15:14:55.5642 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 15:14:55.5816 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 15:14:55.5943 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 15:14:55.6057 Info Configuration initialized.
+2023-10-25 15:14:58.4956 Info AppDomain Shutting down. LogFactory closing...
+2023-10-25 15:14:58.5133 Info LogFactory has been closed.
+2023-10-25 15:15:02.2445 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-25 15:15:02.2618 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-25 15:15:02.2742 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-25 15:15:02.2742 Info Configuration initialized.
