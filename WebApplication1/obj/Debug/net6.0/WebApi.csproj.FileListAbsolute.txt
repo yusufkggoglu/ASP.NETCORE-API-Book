@@ -13,6 +13,7 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Azure.Identity.dl
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Humanizer.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
