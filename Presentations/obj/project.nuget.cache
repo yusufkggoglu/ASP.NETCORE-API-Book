@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9SY70l6GIc1z6e9cMPp3MOWqbaHGAqEe/jnZV5Z4j0dDmL+At/v84dLNgP9rFciqxxk4ot8vRSy0CUkJKJszmA==",
+  "dgSpecHash": "rF4ZWTVn/i7Zel8PdQkllbulZ2frAznd2CEy+erYvIk/0BDPGEwiQ8vR6XCFsMXkrw1ui8AF87udeSShVwY0yA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yusuf\\Desktop\\C#\\API\\Presentations\\Presentations.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\yusuf\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\system.linq.dynamic.core\\1.2.23\\system.linq.dynamic.core.1.2.23.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",

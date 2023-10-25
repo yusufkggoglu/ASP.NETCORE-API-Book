@@ -25,13 +25,12 @@ namespace Repositories.EFCore
         {
             var books = await FindAll(trackChanges)
             .FilterBooks(bookParameters.MinPrice, bookParameters.MaxPrice)
-            .OrderBy(b => b.Id)
+            .Search(bookParameters.SearchTerm)
+            .Sort(bookParameters.OrderBy)
             .ToListAsync();
 
             return PagedList<Book>.ToPagedList(books,bookParameters.pageNumber,bookParameters.pageSize);
         }
-
-
         public async Task<Book> GetOneBookByIdAsync(int id, bool trackChanges) => 
             await FindByCondition(b => b.Id.Equals(id), trackChanges)
             .SingleOrDefaultAsync();

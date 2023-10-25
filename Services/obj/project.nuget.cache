@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bl7cJEbi+g8dtOMHTWG8Nd8cGkwG7KhQC5tIADpLZ7FFCBQsmzjkWtZeXFAWKJGgjK/V+90vcFYJhW4AfiyeMQ==",
+  "dgSpecHash": "pu6fiu2gthCbE/tECK2jxOxeeZX8spjQaDDhpt9XtVDor5qNRtxI0frVT6nfRlXMnG09B5ErDL6PhCS/NQyxBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\yusuf\\Desktop\\C#\\API\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\nlog\\5.2.5\\nlog.5.2.5.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\nlog.extensions.logging\\5.3.5\\nlog.extensions.logging.5.3.5.nupkg.sha512",
+    "C:\\Users\\yusuf\\.nuget\\packages\\system.linq.dynamic.core\\1.2.23\\system.linq.dynamic.core.1.2.23.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
