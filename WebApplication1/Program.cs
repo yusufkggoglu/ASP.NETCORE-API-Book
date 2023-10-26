@@ -15,6 +15,7 @@ builder.Services.AddControllers(config =>
 {
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;   //Content Negotiation
+    config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
 })
     .AddXmlDataContractSerializerFormatters() // for xml request
     .AddApplicationPart(typeof(Presentations.AssemlyReference).Assembly);
@@ -38,6 +39,9 @@ builder.Services.ConfigureActionFilters();
 builder.Services.ConfigureCors();
 builder.Services.AddCustomMediaTypes();
 builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
+
 
 var app = builder.Build();
 
@@ -52,8 +56,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");
+app.UseResponseCaching(); // Microsoft cors'dan sonra caching kullanýlmasýný öneriyor.
+app.UseHttpCacheHeaders();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

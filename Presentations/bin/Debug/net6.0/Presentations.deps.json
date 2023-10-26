@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Presentations/1.0.0": {
         "dependencies": {
+          "Marvin.Cache.Headers": "6.0.0",
           "Microsoft.AspNetCore.JsonPatch": "7.0.12",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.0",
@@ -26,6 +27,14 @@
           "lib/netstandard2.1/AutoMapper.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "Marvin.Cache.Headers/6.0.0": {
+        "runtime": {
+          "lib/net5.0/Marvin.Cache.Headers.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
           }
         }
       },
@@ -687,6 +696,13 @@
       "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
       "path": "automapper/12.0.1",
       "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "Marvin.Cache.Headers/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LYI20j8gPVDpvlvjHk0weRMBLNrU9vCl/zhYFe0H/p5UULHHdw5krZ5TlKvcumSbQMP0oYYc2oFJvXJ7uT0ViA==",
+      "path": "marvin.cache.headers/6.0.0",
+      "hashPath": "marvin.cache.headers.6.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",

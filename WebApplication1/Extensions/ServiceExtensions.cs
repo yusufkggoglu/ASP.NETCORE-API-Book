@@ -11,6 +11,7 @@ using Services.Contracts;
 using System.Runtime.CompilerServices;
 using Presentations.Controllers;
 using Microsoft.AspNetCore.Mvc.Versioning;
+using Marvin.Cache.Headers;
 
 namespace WebApplication1.Extensions
 {
@@ -94,5 +95,18 @@ namespace WebApplication1.Extensions
                     .HasDeprecatedApiVersion(new ApiVersion(2, 0)); // servis dışı api - deprececated
             });
         }
+
+        public static void ConfigureResponseCaching(this IServiceCollection services) =>
+            services.AddResponseCaching();
+        public static void ConfigureHttpCacheHeaders(this IServiceCollection services) =>
+            services.AddHttpCacheHeaders(expirationOpt =>
+            {
+                expirationOpt.MaxAge = 90;
+                expirationOpt.CacheLocation = CacheLocation.Public;
+            },
+            validationOpt =>
+            {
+                 validationOpt.MustRevalidate = true;
+            });
     }
 }
