@@ -6,6 +6,7 @@ using WebApi.Extensions;
 using Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Presentations.ActionFilters;
+using AspNetCoreRateLimit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,7 +42,9 @@ builder.Services.AddCustomMediaTypes();
 builder.Services.ConfigureVersioning();
 builder.Services.ConfigureResponseCaching();
 builder.Services.ConfigureHttpCacheHeaders();
-
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -55,6 +58,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
 app.UseResponseCaching(); // Microsoft cors'dan sonra caching kullanýlmasýný öneriyor.
 app.UseHttpCacheHeaders();
