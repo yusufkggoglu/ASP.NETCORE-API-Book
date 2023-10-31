@@ -46,6 +46,10 @@ builder.Services.AddMemoryCache();
 builder.Services.ConfigureRateLimitingOptions();
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+
+
 var app = builder.Build();
 
 var logger = app.Services.GetRequiredService<ILoggingService>();
@@ -62,7 +66,11 @@ app.UseHttpsRedirection();
 app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
 app.UseResponseCaching(); // Microsoft cors'dan sonra caching kullanýlmasýný öneriyor.
-app.UseHttpCacheHeaders();
-app.UseAuthorization();
+app.UseHttpCacheHeaders(); 
+
+app.UseAuthentication(); // ilk önce oturum açýlacak
+app.UseAuthorization(); // sonra yetkilendirme yapýlacak
+
 app.MapControllers();
+
 app.Run();

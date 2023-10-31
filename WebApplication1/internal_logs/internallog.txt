@@ -396,3 +396,115 @@
 2023-10-31 16:37:11.1185 Info Configuration initialized.
 2023-10-31 16:43:14.5698 Info AppDomain Shutting down. LogFactory closing...
 2023-10-31 16:43:14.5917 Info LogFactory has been closed.
+2023-10-31 22:29:41.3823 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:29:41.4185 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:29:41.4330 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:29:41.4442 Info Configuration initialized.
+2023-10-31 22:29:42.4620 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:29:42.4721 Info LogFactory has been closed.
+2023-10-31 22:30:42.3150 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:30:42.3321 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:30:42.3321 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:30:42.3560 Info Configuration initialized.
+2023-10-31 22:30:43.5971 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:30:43.6134 Info LogFactory has been closed.
+2023-10-31 22:39:43.2787 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:39:43.2965 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:39:43.3086 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:39:43.3195 Info Configuration initialized.
+2023-10-31 22:39:44.3502 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:39:44.3624 Info LogFactory has been closed.
+2023-10-31 22:41:38.6724 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:41:38.6872 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:41:38.6980 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:41:38.7078 Info Configuration initialized.
+2023-10-31 22:41:39.6192 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:41:39.6301 Info LogFactory has been closed.
+2023-10-31 22:41:51.3470 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:41:51.4217 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:41:51.4389 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:41:51.4534 Info Configuration initialized.
+2023-10-31 22:46:13.4676 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:46:13.4863 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:46:13.5037 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:46:13.5202 Info Configuration initialized.
+2023-10-31 22:46:13.8791 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:46:13.8942 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:46:13.8942 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:46:13.9201 Info Configuration initialized.
+2023-10-31 22:46:14.7979 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:46:14.8068 Info LogFactory has been closed.
+2023-10-31 22:46:57.2901 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:46:57.3100 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:46:57.3303 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:46:57.3508 Info Configuration initialized.
+2023-10-31 22:46:57.6587 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:46:57.6753 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:46:57.6907 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:46:57.6907 Info Configuration initialized.
+2023-10-31 22:46:59.4109 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:46:59.4289 Info LogFactory has been closed.
+2023-10-31 22:47:43.2925 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:47:43.3218 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:47:43.3434 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:47:43.3630 Info Configuration initialized.
+2023-10-31 22:47:43.6466 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:47:43.6669 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:47:43.6793 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:47:43.6916 Info Configuration initialized.
+2023-10-31 22:47:44.4756 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:47:44.4756 Info LogFactory has been closed.
+2023-10-31 22:47:51.0773 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:47:51.0914 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:47:51.1027 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:47:51.1130 Info Configuration initialized.
+2023-10-31 22:47:52.3032 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:47:52.3032 Info LogFactory has been closed.
+2023-10-31 22:48:03.8199 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:48:03.8359 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:48:03.8545 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:48:03.8691 Info Configuration initialized.
+2023-10-31 22:48:04.1295 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:48:04.1452 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:48:04.1598 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:48:04.1598 Info Configuration initialized.
+2023-10-31 22:48:05.0497 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:48:05.0497 Info LogFactory has been closed.
+2023-10-31 22:48:23.9550 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:48:23.9742 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:48:23.9994 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:48:24.0263 Info Configuration initialized.
+2023-10-31 22:48:24.6075 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-31 22:48:24.6296 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-31 22:48:24.6490 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-10-31 22:48:24.6669 Info Configuration initialized.
+2023-10-31 22:48:26.5827 Info AppDomain Shutting down. LogFactory closing...
+2023-10-31 22:48:26.5982 Info LogFactory has been closed.
+2023-11-01 00:09:02.2874 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-01 00:09:02.3492 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 00:09:02.3688 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-11-01 00:09:02.3883 Info Configuration initialized.
+2023-11-01 00:09:04.6602 Info AppDomain Shutting down. LogFactory closing...
+2023-11-01 00:09:04.6602 Info LogFactory has been closed.
+2023-11-01 00:09:07.0539 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-01 00:09:07.1108 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 00:09:07.1289 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-11-01 00:09:07.1447 Info Configuration initialized.
+2023-11-01 00:09:11.7968 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-01 00:09:11.8139 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 00:09:11.8258 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-11-01 00:09:11.8372 Info Configuration initialized.
+2023-11-01 00:09:12.2854 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-01 00:09:12.3027 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 00:09:12.3205 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-11-01 00:09:12.3371 Info Configuration initialized.
+2023-11-01 00:09:13.4683 Info AppDomain Shutting down. LogFactory closing...
+2023-11-01 00:09:13.4801 Info LogFactory has been closed.
+2023-11-01 00:37:58.9378 Info AppDomain Shutting down. LogFactory closing...
+2023-11-01 00:37:58.9571 Info LogFactory has been closed.
+2023-11-01 01:13:45.3269 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-11-01 01:13:45.3472 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 01:13:45.3472 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\yusuf\Desktop\C#\API\WebApplication1\nlog.config
+2023-11-01 01:13:45.3715 Info Configuration initialized.
+2023-11-01 01:24:17.9696 Info AppDomain Shutting down. LogFactory closing...
+2023-11-01 01:24:17.9906 Info LogFactory has been closed.

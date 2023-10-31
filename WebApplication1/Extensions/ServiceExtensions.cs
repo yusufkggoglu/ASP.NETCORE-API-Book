@@ -13,6 +13,7 @@ using Presentations.Controllers;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Marvin.Cache.Headers;
 using AspNetCoreRateLimit;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApplication1.Extensions
 {
@@ -130,6 +131,22 @@ namespace WebApplication1.Extensions
             services.AddSingleton<IIpPolicyStore,MemoryCacheIpPolicyStore>();
             services.AddSingleton<IRateLimitConfiguration,RateLimitConfiguration>();
             services.AddSingleton<IProcessingStrategy,AsyncKeyLockProcessingStrategy>();
+        }
+
+        public static void ConfigureIdentity(this IServiceCollection services)
+        {
+            var builder = services.AddIdentity<User, IdentityRole>(opts =>
+            {
+                opts.Password.RequireDigit = true;
+                opts.Password.RequireLowercase = false;
+                opts.Password.RequireUppercase = false;
+                opts.Password.RequireNonAlphanumeric = false;
+                opts.Password.RequiredLength = 6;
+
+                opts.User.RequireUniqueEmail = true;
+            })
+                .AddEntityFrameworkStores<RepositoryContext>()
+                .AddDefaultTokenProviders();
         }
     }
 }
