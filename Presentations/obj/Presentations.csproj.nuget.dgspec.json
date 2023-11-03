@@ -277,6 +277,10 @@
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[5.3.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.14.1, )"
             }
           },
           "imports": [

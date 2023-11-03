@@ -13,6 +13,7 @@ C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Humanizer.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Marvin.Cache.Headers.dll
+C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\yusuf\Desktop\C#\API\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll

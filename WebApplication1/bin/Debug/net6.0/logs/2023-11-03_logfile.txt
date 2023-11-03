@@ -1,0 +1,223 @@
+2023-11-03 16:42:46.3453 ERROR Something went wrong : Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Presentations.Controllers.BooksController.GetBooksOptions (Presentations). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 16:45:14.8668 WARN ValidateUser : Authentication failed. Wrong username or password.
+2023-11-03 16:47:04.9971 ERROR Something went wrong : Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Presentations.Controllers.BooksController.GetBooksOptions (Presentations). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 16:47:47.5212 ERROR Something went wrong : Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Presentations.Controllers.BooksController.GetBooksOptions (Presentations). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 17:21:00.0524 WARN ValidateUser : Authentication failed. Wrong username or password.
+2023-11-03 17:21:02.3993 WARN ValidateUser : Authentication failed. Wrong username or password.
+2023-11-03 17:21:08.1024 WARN ValidateUser : Authentication failed. Wrong username or password.
+2023-11-03 17:26:51.8026 ERROR Something went wrong : Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Presentations.Controllers.BooksController.GetBooksOptions (Presentations). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 17:29:43.0555 ERROR Something went wrong : Microsoft.IdentityModel.Tokens.SecurityTokenException: Invalid token.
+   at Services.AuthenticationManager.GetPrincipalFromExpiredToken(String token)
+   at Services.AuthenticationManager.RefreshToken(TokenDto tokenDto)
+   at Presentations.Controllers.AuthenticationController.Refresh(TokenDto tokenDto) in C:\Users\yusuf\Desktop\C#\API\Presentations\Controllers\AuthenticationController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 123
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 17:30:01.3932 ERROR Something went wrong : Microsoft.IdentityModel.Tokens.SecurityTokenException: Invalid token.
+   at Services.AuthenticationManager.GetPrincipalFromExpiredToken(String token)
+   at Services.AuthenticationManager.RefreshToken(TokenDto tokenDto)
+   at Presentations.Controllers.AuthenticationController.Refresh(TokenDto tokenDto) in C:\Users\yusuf\Desktop\C#\API\Presentations\Controllers\AuthenticationController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 123
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 17:30:27.8862 ERROR Something went wrong : Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Presentations.Controllers.BooksController.GetBooksOptions (Presentations). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 17:30:45.9133 ERROR Something went wrong : Microsoft.IdentityModel.Tokens.SecurityTokenException: Invalid token.
+   at Services.AuthenticationManager.GetPrincipalFromExpiredToken(String token) in C:\Users\yusuf\Desktop\C#\API\Services\AuthenticationManager.cs:line 143
+   at Services.AuthenticationManager.RefreshToken(TokenDto tokenDto) in C:\Users\yusuf\Desktop\C#\API\Services\AuthenticationManager.cs:line 150
+   at Presentations.Controllers.AuthenticationController.Refresh(TokenDto tokenDto) in C:\Users\yusuf\Desktop\C#\API\Presentations\Controllers\AuthenticationController.cs:line 58
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.HandleResponse(HttpContext httpContext)
+   at Marvin.Cache.Headers.HttpCacheHeadersMiddleware.Invoke(HttpContext httpContext, IValidatorValueInvalidator validatorValueInvalidator)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at AspNetCoreRateLimit.RateLimitMiddleware`1.Invoke(HttpContext context) in C:\Users\User\Documents\Github\AspNetCoreRateLimit\src\AspNetCoreRateLimit\Middleware\RateLimitMiddleware.cs:line 123
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-03 17:34:18.0128 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-03T14:34:18.0083248Z"}
+2023-11-03 17:36:30.8529 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-03T14:36:30.8526706Z"}
+2023-11-03 17:36:50.0691 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.0690622Z"}
+2023-11-03 17:36:50.1898 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.1898318Z"}
+2023-11-03 17:36:50.2826 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.2826146Z"}
+2023-11-03 17:36:50.3614 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.3614167Z"}
+2023-11-03 17:36:50.4232 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.4232366Z"}
+2023-11-03 17:36:50.5009 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.5009713Z"}
+2023-11-03 17:36:50.5614 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.5613874Z"}
+2023-11-03 17:36:50.5865 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.5865573Z"}
+2023-11-03 17:36:50.6148 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.6148166Z"}
+2023-11-03 17:36:50.6569 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.6569589Z"}
+2023-11-03 17:36:50.7203 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.7203259Z"}
+2023-11-03 17:36:50.7849 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.7848667Z"}
+2023-11-03 17:36:50.8452 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.8452174Z"}
+2023-11-03 17:36:50.9235 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:50.9235372Z"}
+2023-11-03 17:36:51.0046 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.004652Z"}
+2023-11-03 17:36:51.0661 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.066121Z"}
+2023-11-03 17:36:51.1289 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.128935Z"}
+2023-11-03 17:36:51.2223 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.2223537Z"}
+2023-11-03 17:36:51.3017 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.3017163Z"}
+2023-11-03 17:36:51.3958 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.3958037Z"}
+2023-11-03 17:36:51.4732 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.4732273Z"}
+2023-11-03 17:36:51.5365 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.5365126Z"}
+2023-11-03 17:36:51.6136 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.6136316Z"}
+2023-11-03 17:36:51.6753 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.6753617Z"}
+2023-11-03 17:36:51.7539 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.7538911Z"}
+2023-11-03 17:36:51.8313 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.8313372Z"}
+2023-11-03 17:36:51.9079 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:51.9079446Z"}
+2023-11-03 17:36:52.0031 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.0031561Z"}
+2023-11-03 17:36:52.0806 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.0806028Z"}
+2023-11-03 17:36:52.1570 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.15707Z"}
+2023-11-03 17:36:52.2328 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.2328101Z"}
+2023-11-03 17:36:52.2959 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.2959163Z"}
+2023-11-03 17:36:52.3751 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.375161Z"}
+2023-11-03 17:36:52.4410 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.4410473Z"}
+2023-11-03 17:36:52.5080 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.5080164Z"}
+2023-11-03 17:36:52.6389 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.6389602Z"}
+2023-11-03 17:36:52.7325 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.7325506Z"}
+2023-11-03 17:36:52.8104 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.8104636Z"}
+2023-11-03 17:36:52.8719 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.8719156Z"}
+2023-11-03 17:36:52.9519 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:52.9519846Z"}
+2023-11-03 17:36:53.0295 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.0295729Z"}
+2023-11-03 17:36:53.0791 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.0791734Z"}
+2023-11-03 17:36:53.1561 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.1560989Z"}
+2023-11-03 17:36:53.2175 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.2174916Z"}
+2023-11-03 17:36:53.2799 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.2798903Z"}
+2023-11-03 17:36:53.3568 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.3568531Z"}
+2023-11-03 17:36:53.4361 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.4361247Z"}
+2023-11-03 17:36:53.5155 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.5154922Z"}
+2023-11-03 17:36:53.5777 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.5777666Z"}
+2023-11-03 17:36:53.6562 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.6562688Z"}
+2023-11-03 17:36:53.7366 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.7366139Z"}
+2023-11-03 17:36:53.8180 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.8179943Z"}
+2023-11-03 17:36:53.8782 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.8781992Z"}
+2023-11-03 17:36:53.9554 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:53.9553855Z"}
+2023-11-03 17:36:54.0178 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.0178074Z"}
+2023-11-03 17:36:54.0784 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.0784127Z"}
+2023-11-03 17:36:54.1566 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.1566639Z"}
+2023-11-03 17:36:54.2330 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.2330731Z"}
+2023-11-03 17:36:54.2807 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.2807351Z"}
+2023-11-03 17:36:54.3305 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.3304928Z"}
+2023-11-03 17:36:54.4220 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.4220244Z"}
+2023-11-03 17:36:54.5133 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.5133487Z"}
+2023-11-03 17:36:54.6080 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.6080568Z"}
+2023-11-03 17:36:54.6697 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.6697744Z"}
+2023-11-03 17:36:54.7476 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.7476612Z"}
+2023-11-03 17:36:54.8269 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.8269284Z"}
+2023-11-03 17:36:54.9205 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.9205037Z"}
+2023-11-03 17:36:54.9838 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:54.983791Z"}
+2023-11-03 17:36:55.0591 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.0591739Z"}
+2023-11-03 17:36:55.1385 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.1385448Z"}
+2023-11-03 17:36:55.2172 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.2172875Z"}
+2023-11-03 17:36:55.2961 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.2961054Z"}
+2023-11-03 17:36:55.3556 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.3555921Z"}
+2023-11-03 17:36:55.4351 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.4351657Z"}
+2023-11-03 17:36:55.5129 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.5129107Z"}
+2023-11-03 17:36:55.5351 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.535181Z"}
+2023-11-03 17:36:55.5638 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.5638306Z"}
+2023-11-03 17:36:55.5917 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.5917624Z"}
+2023-11-03 17:36:55.6539 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.6539423Z"}
+2023-11-03 17:36:55.7183 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.7182931Z"}
+2023-11-03 17:36:55.8128 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.8127471Z"}
+2023-11-03 17:36:55.8901 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.8901716Z"}
+2023-11-03 17:36:55.9550 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:55.9550126Z"}
+2023-11-03 17:36:56.0329 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.0329498Z"}
+2023-11-03 17:36:56.1311 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.1310738Z"}
+2023-11-03 17:36:56.2064 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.206469Z"}
+2023-11-03 17:36:56.2822 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.2822821Z"}
+2023-11-03 17:36:56.3749 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.3749469Z"}
+2023-11-03 17:36:56.4369 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.4369533Z"}
+2023-11-03 17:36:56.5144 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.5144113Z"}
+2023-11-03 17:36:56.5921 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.5921365Z"}
+2023-11-03 17:36:56.6537 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.653696Z"}
+2023-11-03 17:36:56.7166 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.7166392Z"}
+2023-11-03 17:36:56.7667 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.7667728Z"}
+2023-11-03 17:36:56.8150 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.8149894Z"}
+2023-11-03 17:36:56.8741 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.8741302Z"}
+2023-11-03 17:36:56.9508 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"CreateOneBook","Id":null,"CreateAt":"2023-11-03T14:36:56.9508008Z"}
+2023-11-03 17:37:17.7624 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-03T14:37:17.7624102Z"}
