@@ -10,6 +10,7 @@ namespace Presentations.Controllers
 {
     [ApiController]
     [Route("api/books")]
+    [ApiExplorerSettings(GroupName ="v2")]
     public class BookV2Controller :ControllerBase
     {
         private readonly IServiceManager _manager;
@@ -17,6 +18,7 @@ namespace Presentations.Controllers
         {
             _manager = manager;
         }
+        [HttpGet]
         public async Task<ActionResult> GetAllBooks()
         {
 

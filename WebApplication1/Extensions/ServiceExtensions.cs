@@ -17,6 +17,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.OpenApi.Models;
+using System.Security.Cryptography.Xml;
 
 namespace WebApplication1.Extensions
 {
@@ -173,6 +175,52 @@ namespace WebApplication1.Extensions
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),
                 }
             );
+        }
+
+        public static void ConfigureSwagger(this  IServiceCollection services) 
+        {
+            services.AddSwaggerGen(s =>
+            {
+                s.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Title = "API", 
+                    Version = "v1",
+                    Description = "Example api project",
+                    TermsOfService = new Uri("https://www.yusufcankggoglu.com"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Yusuf Küçükgökgözoğlu",
+                        Email ="yusufcankggoglu@gmail.com",
+                        Url = new Uri("fakeurl.com")
+                    }
+                   
+                });
+                s.SwaggerDoc("v2", new OpenApiInfo { Title = "API", Version = "v2" });
+
+                s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Place to add JWT with Bearer",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+                s.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            },
+                            Name = "Bearer"  
+                        }, 
+                        new List<string>()
+                    }
+                });
+            });
         }
     }
 }
